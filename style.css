@@ -325,7 +325,7 @@ img {
 }
 .about-section .about-image .img-box .about-shape {
   width: 404px;
-  height: 525px;
+  height: 900px;
   border-left: 15px solid var(--main-color);
   border-bottom: 15px solid var(--main-color);
   position: absolute;
@@ -345,12 +345,12 @@ img {
 .about-section .about-image .img-box .about-shape::after {
   position: absolute;
   content: "";
-  width: 104%;
+  width: 109.25%;
   height: 15px;
   background-color: var(--main-color);
-  top: 36px;
-  right: -2px;
-  transform: rotate(11deg);
+  top: 58px;
+  right: -11px;
+  transform: rotate(20deg);
   border-top-left-radius: 20px;
 }
 .about-section .about-content p {
@@ -798,7 +798,7 @@ footer .copyright-text {
     justify-content: center;
   }
   .home-image .img-box {
-    margin-top: 30px;
+    margin-top: 250px;
   }
   .about-section .about-image {
     display: none;
